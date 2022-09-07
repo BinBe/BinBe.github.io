@@ -1,0 +1,21 @@
+/* MOBLIE RESPONSIVE */
+
+@media (max-width: 576px) {
+  body {
+    max-width: 567px;
+    min-width: 443px;
+    margin: 1rem;
+  }
+  p {
+    /* thu nhỏ margin với thẻ p ở moblie */
+    margin: 0 !important;
+    line-height: 1.6rem;
+  }
+  #banner {
+    display: none;
+  }
+
+  .nav-avatar {
+    display: none;
+  }
+}
